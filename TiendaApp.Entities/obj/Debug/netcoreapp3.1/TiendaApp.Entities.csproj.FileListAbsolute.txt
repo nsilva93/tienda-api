@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\TiendaApp\TiendaApp.Entities\bin\Debug\netcoreapp3.1\TiendaApp.Entities.deps.json
+C:\Users\Admin\source\repos\TiendaApp\TiendaApp.Entities\bin\Debug\netcoreapp3.1\TiendaApp.Entities.dll
+C:\Users\Admin\source\repos\TiendaApp\TiendaApp.Entities\bin\Debug\netcoreapp3.1\TiendaApp.Entities.pdb
+C:\Users\Admin\source\repos\TiendaApp\TiendaApp.Entities\obj\Debug\netcoreapp3.1\TiendaApp.Entities.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\TiendaApp\TiendaApp.Entities\obj\Debug\netcoreapp3.1\TiendaApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\TiendaApp\TiendaApp.Entities\obj\Debug\netcoreapp3.1\TiendaApp.Entities.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\TiendaApp\TiendaApp.Entities\obj\Debug\netcoreapp3.1\TiendaApp.Entities.AssemblyInfo.cs
+C:\Users\Admin\source\repos\TiendaApp\TiendaApp.Entities\obj\Debug\netcoreapp3.1\TiendaApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\TiendaApp\TiendaApp.Entities\obj\Debug\netcoreapp3.1\TiendaApp.Entities.dll
+C:\Users\Admin\source\repos\TiendaApp\TiendaApp.Entities\obj\Debug\netcoreapp3.1\TiendaApp.Entities.pdb
