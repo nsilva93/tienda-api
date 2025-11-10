@@ -40,7 +40,7 @@ Implementa una arquitectura en **4 capas**, autenticación mediante **JWT**, CRU
 ---
 
 BASE DE DATOS
-´´´
+```sql
 USE [TiendaDb]
 GO
 /****** Object:  Table [dbo].[Articulos]    Script Date: 09/11/2025 09:34:54 p. m. ******/
