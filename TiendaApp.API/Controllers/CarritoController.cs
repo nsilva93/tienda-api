@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using TiendaApp.API.Models.Carrito;
 using TiendaApp.Business.Interfaces;
@@ -21,7 +24,7 @@ namespace TiendaApp.API.Controllers
 
         private int GetClienteId()
         {
-            return int.Parse(User.Claims.First(c => c.Type == "sub").Value);
+            return int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
         }
 
         [HttpGet]

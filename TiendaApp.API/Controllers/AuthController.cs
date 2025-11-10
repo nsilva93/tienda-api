@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using TiendaApp.API.Models.Auth;
 using TiendaApp.Business.Interfaces;
@@ -6,6 +7,7 @@ using TiendaApp.Entities;
 
 namespace TiendaApp.API.Controllers
 {
+    
     [ApiController]
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
@@ -16,7 +18,7 @@ namespace TiendaApp.API.Controllers
         {
             _auth = auth;
         }
-
+        [Authorize]
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterRequest req)
         {

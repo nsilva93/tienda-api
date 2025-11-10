@@ -10,6 +10,6 @@ namespace TiendaApp.Business.Interfaces
     {
         Task<bool> AddToCartAsync(int clienteId, int articuloId);
         Task<bool> RemoveFromCartAsync(int clienteId, int articuloId);
-        Task<IEnumerable<ClienteArticulo>> GetCartAsync(int clienteId);
+        Task<IEnumerable<object>> GetCartAsync(int clienteId);
     }
 }
